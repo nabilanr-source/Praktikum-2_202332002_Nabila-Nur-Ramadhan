@@ -1,0 +1,72 @@
+/* Keseluruhan */
+body {
+    font-family: 'Times New Roman', Times, serif; /* Mengatur jenis huruf untuk keseluruhan isi website */
+    background-color: #f0f0f0; /* Warna latar belakang halaman */
+    padding: 20px; /* Ruang di sekeliling isi halaman */
+}
+
+/* judul halaman*/
+h1 {
+    text-align: left; /* Teks dimulai dari Rata kiri */
+    color: #000000; /* Teks berwarna hitam */
+    font-size: 18px; /* Ukuran teks */
+}
+
+/* Kelas 'nama' Umum (bisa dipakai di h2 atau span) */
+.nama {
+    color: #ffff00; /* Teks berwarna kuning */
+    background-color: #0000ff; /* Warna latar belakang biru */
+}
+
+/* Khusus untuk <h2 class="nama"> */
+h2.nama {
+    padding: 10px; /* Ruang dalam */
+    text-align: left; /* Teks dimulai dari Rata kiri */
+    font-size: 20px;
+}
+
+/* ID 'nim', karena ID jadi menggunakan pagar */
+#nim {
+    color: #0000ff; /* Warna teks biru */
+    text-align: left; /* Teks dimulai dari Rata kiri */
+    font-size: 20px; /* Ukuran teks */
+    margin-top: 10px;
+}
+
+/* Paragraf */
+p {
+    color: #333; /* Warna teks abu gelap */
+    font-size: 16px; /* Ukuran teks */
+    text-align: center; /* Teks rata tengah */
+    margin-bottom: 20px;
+}
+
+/* Paragraf Khusus dengan Latar Kuning */
+.teks2 {
+    padding: 15px; /* Ruang dalam */
+    border-radius: 8px; /* Sudut membulat */
+    background-color: transparent; /* Default: tidak menimpa span yang di dalam */
+}
+
+/* Link YouTube */
+h3 a {
+    text-decoration: none; /* Hilangkan garis bawah */
+    color: rgb(6, 6, 6); /* Warna teks awal (hitam gelap) */
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* Efek saat kursor hover pada link */
+h3 a:hover {
+    color: rgb(249, 3, 3); /* Merah terang saat dihover */
+}
+
+/* Kelas untuk Teks Miring */
+.italic {
+    font-style: italic; /* Membuat teks miring */
+}
+
+/* Kelas untuk Background Kuning Saja */
+.bgkuning {
+    background-color: #ffff00; /* Latar belakang kuning */
+}
